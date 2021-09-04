@@ -800,7 +800,7 @@ a.read_more:hover {
 
 
 
-/* ---------------------------  END BOOK PAGE --------------------------*/
+/* ---------------------------  BOOK PAGE --------------------------*/
 
 .book-wrapper {
     display: flex;
@@ -892,6 +892,12 @@ a.read_more:hover {
 	min-width: 400px;
 	max-width: 800px;
 	padding: 50px;
+}
+@media (max-width:600px){
+	.book-description{
+		min-width: 200px;
+		padding: 20px;
+	}
 }
 .book-description h1{
 	font-size: 30px;
