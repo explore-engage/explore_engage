@@ -1006,13 +1006,13 @@ a.read_more:hover {
 
 
 .article-slider {
-  height: 150px;
   margin: auto;
   overflow: hidden;
   position: relative;
   width: 100%;
+  height: auto;
+  padding-left: 7%;
 }
-
 
 
 .article-slider .article-slide-track {
@@ -1021,9 +1021,32 @@ a.read_more:hover {
 }
 .article-slider .article-slide {
   padding-top: 20px;
-  height: 100px;
-  width: 250px;
+  height: 150px;
+  width: 300px;
 }
+
+
+
+@media (max-width:600px){
+	.article-slider{
+		margin: 20px;
+		width: 100%;
+		height: 500px;
+	}
+	.article-slider .article-slide-track{
+		display: block;
+	}
+	.article-slide-track{
+		height: 450px;
+		width: auto;
+		text-align: center;
+	}
+	.article-slider .article-slide{
+		height: 100px;
+  		width: 150px;
+	}
+}
+
 
 /* ----------------------------- ARTICLE 1 PAGE ---------------------------*/
 
