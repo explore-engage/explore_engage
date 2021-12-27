@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(52, 59, 64, 0.9);
 }
 #header #logo h1 {
-  font-size: 32px;
+  font-size: 25px;
   margin: 0;
   line-height: 1;
   font-family: "Poppins", sans-serif;
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 30px 0 10px 0;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -546,6 +546,9 @@ section {
 #facts {
   background: #f7f7f7;
   padding: 80px 0 60px 0;
+}
+#facts h3{
+  font-size: 30px;
 }
 #facts .counters span {
   font-size: 48px;
